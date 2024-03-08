@@ -110,7 +110,7 @@ function set_stream_channel(name, password, address='zixi.streaming-01.digitell.
     xml_doc.output_list = output_list
 }
 
-function set_record_channel(out_path="D:\\Archive\\"){
+function set_record_channel(out_path=`D:\\Archive\\`, file_name='Recording'){
     const output_list = xml_doc.querySelector('output_list')
 
     const outputs = output_list.children
@@ -122,8 +122,7 @@ function set_record_channel(out_path="D:\\Archive\\"){
             const record_channel = node.getAttribute('record_channel')
 
             if (record_channel){     
-                node.setAttribute('output_url', String(out_path))
-
+                node.setAttribute('output_url', `${out_path}\\${file_name}`)
             }
 
         } catch (err){
@@ -140,6 +139,8 @@ form.addEventListener('submit', async (e) => {
     e.preventDefault()
 
     const inputs = get_input_values()
+
+    // Field Checking - Disabled
 
     // for(i in inputs){
     //     const errs = []
@@ -158,9 +159,9 @@ form.addEventListener('submit', async (e) => {
     xml_doc = string_to_xml(raw_xml_str)
 
     set_stream_channel(String(inputs.channel_name), String(inputs.channel_password))
-    set_record_channel(String(inputs['output_path']))
+    set_record_channel(String(inputs.output_path), String(inputs.file_name))
 
-    const out_file = write_out_file(inputs['file_name'])
+    const out_file = write_out_file(inputs.file_name)
     
-    start_file_download(out_file, inputs['file_name'])
+    start_file_download(out_file, inputs.file_name)
 })
