@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Wirecast Templater | BroadcastMed</title>
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    </head>
+    <body>
+        <main>
+             <div>
+                <section>
+                    <h2>Wirecast Templater</h2>
+                </section>
+
+                <section class="settings">
+                    <h3>Settings</h3>
+                    <span id="error" className="error_msg"></span>
+                    <form id="settings_form">
+                        <div class="form_group">
+                            <label>Stream Channel:</label>
+                            <input type="text" name="channel_name" required id="channel_name" placeholder="Obained from LEP" value="">
+                        </div>
+                        <div class="form_group">
+                            <label>Channel Password:</label>
+                            <input type="text" id="channel_password" required name="channel_password" placeholder="Obtained from LEP" value="">
+                        </div>
+                        <div class="form_group">
+                            <label>Recording Output Path:</label>
+                            <input type="text" id="record_path" name="output_path" placeholder="D:\Archive\MP4\[Recording]" value="">
+                        </div>
+                        <div class="form_group">
+                            <label>Recording Name:</label>
+                            <input type="text" id="file_name" name="file_name" placeholder="RecorderXX" value="">
+                        </div>
+                        <button class="submit_button">
+                            Generate Template
+                        </button>
+                    </form>
+                </section>
+            </div>
+            <footer>
+                <sub><a href="https://BroadcastMed.com">BroadcastMed inc.</a></sub>
+            </footer>
+        </main>
+    </body>
+    <script src="static/js/script.js"></script>
+</html>

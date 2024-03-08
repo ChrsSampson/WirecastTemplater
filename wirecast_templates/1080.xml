@@ -1,0 +1,273 @@
+<xml>
+<document unique_id="6f7cba11-bc0e-4756-b19d-027683c7eba7" version="7" os="windows" original_document_path="C:\Users\User\Desktop\Utility\Wirecast Template\Digitell Streaming 1080.wcst">
+	<open_windows>
+		<vamWindowGlass frame="25,30,1345,770" asset_icon_scale="0.65" asset_icon_updateFPS="15" selected_layer="1836282929" vam_main_splitter="0.6" eWindow_win_showcmd="3"/>
+	</open_windows>
+	<vam_state master_audio_shown="1000" preview_audio_monitor="0" master_audio_monitor="1" show_preview_edit_panel="1" preview_shown="1" live_shown="1" transition_0_unique_id="-- CUT --" transition_1_unique_id="-- SMOOTH --" transition_2_unique_id="SCTransitionPlane" live_preview_split_open_percent="0.75">
+		<tally_state>
+			<master_layer master_layer="2" preview="9f5e70b1-0580-4d24-a1a4-69758bf83f65_shot" live="e1d0dcdd-7b9d-4588-b317-c4a6fa35d925_shot"/>
+			<master_layer master_layer="1" preview="d31bbc6c-4a4e-430d-8554-a970a1ea37b0_shot" live="4aef3a7a-c888-48a5-b032-c67085b59a38_shot"/>
+			<master_layer master_layer="3" preview="4c0e6931-78d3-45b0-9588-ba5a713df72b_shot" live="4c0e6931-78d3-45b0-9588-ba5a713df72b_shot"/>
+			<master_layer master_layer="4" preview="34ecb6dc-ce02-48d1-9410-8ce3a052e407_shot" live="34ecb6dc-ce02-48d1-9410-8ce3a052e407_shot"/>
+		</tally_state>
+	</vam_state>
+	<transition_data/>
+	<chroma_key_data/>
+	<advanced_output>
+		<output_list output_last_selected="2f159538-b60b-4941-8b6d-86e48699e174">
+			<output record_channel="1" output_type="1" output_url="D:\Archive\WMV\Changeme" output_autoinfilename="1" timestamp_filename="0" output_branding="Record To Disk Brand WMV" output_display_name="Record To Disk - Windows Media" output_display_group_name="Record To Disk" output_guid="6868194e-b304-4751-9486-bb980de34560" unique_id="3" output_presetname="Digitell Archive 1080 30FPS 6000K" audio_output_track_mask="1" flash_streaming_delay="0" mo_restreaming="0" output_enabled="1" output_settings_complete="1" output_id="4c83ac65-03d9-43dd-98a3-539f28382f31" output_index_asf="1"/>
+			<output stream_channel="1" output_location="Change+ME?bx=zixi%2Estreaming%2D01%2Edigitell%2Eio&amp;port=2088&amp;pwd=&amp;latency=4000" output_url="rtmp://localhost/live" flash_user_agent="Wirecast/FM 1.0" selected_channel_code="0" output_display_name="Zixi GCS" dynamic_partner="yes" output_type="2" output_branding="Zixi" output_display_group_name="Zixi" dd_username="Change ME" dd_password="Change ME" dd_input_broadcaster_add="zixi.streaming-01.digitell.io" dd_input_broadcaster_port="2088" dd_input_latency="4000" audio_output_track_mask="1" flash_streaming_delay="0" mo_restreaming="0" output_presetname="Digitell Streaming 1080 30FPS 1500Kbps" output_enabled="1" output_user_name="Zixi GCS" output_settings_complete="1" output_id="2f159538-b60b-4941-8b6d-86e48699e174" unique_id="13" output_guid="9ea5ebda-7ea8-4fc4-b0f9-00bb2c3c652a"/>
+			<output replay_quality="standard" replay_audio_enabled="0" replay_record_folder="C:\Users\user\Videos" replay_limit_record_duration="1" replaydialog_record_unit="1" replay_max_record_duration="60000" replay_shot_default_duration="30" replay_create_in_layer="1" replay_create_in_playlist="" replay_show_preview="1" replay_shot_template_asset_id="" replay_create_from_template="0" replay_activate_on_broadcast="0" replay_activate_on_record="0" replay_prompt_delete_shot="1" replay_keep_record_on_delete_shot="0" replay_mute_audio="0" replay_program_replay_enabled="0" output_guid="1825bdbb-1da9-40ec-abca-c85ed5e17604" output_presetname="1825bdbb-1da9-40ec-abca-c85ed5e17604" output_type="6" output_enabled="1" unique_id="6"/>
+		</output_list>
+	</advanced_output>
+	<output_presets>
+		<preset output_presetname="Digitell Archive 1080 30FPS 6000K" show_in_gui="1" group="">
+			<movie format="Windows Media" output_system="" wm_video_enabled="1" wm_audio_enabled="1" wm_video_codec="Windows Media Video 9 Advanced Profile" wm_audio_codec="Windows Media Audio 9.2">
+				<stream mo_enabled="1">
+					<track type="1986618479" mo_width="1920" mo_height="1080" colourspace="1919377952" mo_enabled="1" codecname="Windows Media Video 9 Advanced Profile" fps="30" compressed="1" timescale="3000" target_bit_rate="0" profile="1835100526" limit_bit_rate="0" key_frame_rate="240" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="0" wm_bufferduration="6" wm_bit_rate="6000000" wm_video_smoothness="100" wm_video_keyframeinterval="2" wm_video_decompress_comp="0"/>
+					<track type="1635083375" bps="16" busses="1" channels="2" samplerate="44100" mo_enabled="1" codecname="Windows Media Audio 9.2" target_bit_rate="0" timescale="44100" compressed="1" wm_bit_rate="128040" wm_bufferduration="6"/>
+				</stream>
+			</movie>
+		</preset>
+		<preset output_presetname="Digitell Streaming 1080 30FPS 1500Kbps" show_in_gui="1" group="">
+			<movie format="Flash" output_system="">
+				<track type="1986618479" mo_width="1920" mo_height="1080" colourspace="846624121" mo_enabled="1" codecname="NVidia H.264" fps="30" compressed="1" timescale="3000" target_bit_rate="1500" profile="1835100526" limit_bit_rate="0" key_frame_rate="60" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="nvidia_h264_high_quality" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="1" key_frame_aligned="1" strict_cbr="1" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="1" samplerate="44100" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="44100"/>
+			</movie>
+		</preset>
+		<preset output_presetname="1825bdbb-1da9-40ec-abca-c85ed5e17604" show_in_gui="0" group="Replay">
+			<movie format="Replay" output_system="replay">
+				<track type="1986618479" mo_width="640" mo_height="480" colourspace="846624121" mo_enabled="1" codecname="H.264" fps="30" compressed="1" timescale="3000" target_bit_rate="500" profile="1835100526" limit_bit_rate="0" key_frame_rate="240" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="0" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="48000" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="48000"/>
+			</movie>
+		</preset>
+		<preset output_presetname="net.telestream.NDIOutput" show_in_gui="0" group="NDIOutput">
+			<movie format="NDIOutput" output_system="NDIOutput" output_sdk_preset_xml="ndiout_preset_token" output_sdk_guid="9c09e76e-b7ee-43cf-91b1-80212a21db1b" is_dynamic="1">
+				<track type="1986618479" mo_width="100" mo_height="100" colourspace="846624121" mo_enabled="1" codecname="H.264" fps="15" compressed="1" timescale="1500" target_bit_rate="500" profile="1835100526" limit_bit_rate="0" key_frame_rate="240" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="0" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="48000" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="48000"/>
+			</movie>
+		</preset>
+	</output_presets>
+	<iso_outputs>
+		<xml_tag/>
+	</iso_outputs>
+	<multimonitor/>
+	<volume value="1"/>
+	<preview_volume value="1"/>
+	<auto_live value="0"/>
+	<flip_flop value="0"/>
+	<output_annotations/>
+	<transition_duration va_duration="333333"/>
+	<visual_style/>
+	<single_output/>
+	<layer_names/>
+	<layer_scales layer_0="0.1" layer_1="0.5" layer_2="0.5" layer_3="0.1" layer_4="0.1"/>
+	<layer_visible/>
+	<sections/>
+	<aspectRatio type="825243696"/>
+	<shot_key_map/>
+	<source_group_counters>
+		<group guid="508D5209-D017-B9F7-CC2C-F85260449272" value="3"/>
+	</source_group_counters>
+	<transition_interpolator value="-- SMOOTH --"/>
+	<ptz_settings/>
+	<shotsLiveWhenSaved>
+		<xml_tag vaLayerIndex="1" beLayerEnum="2" vaLayerEnum="1836282929" unique_id="4aef3a7a-c888-48a5-b032-c67085b59a38_shot"/>
+		<xml_tag vaLayerIndex="3" beLayerEnum="4" vaLayerEnum="1836282931" unique_id="4c0e6931-78d3-45b0-9588-ba5a713df72b_shot"/>
+		<xml_tag vaLayerIndex="4" beLayerEnum="5" vaLayerEnum="1836282932" unique_id="34ecb6dc-ce02-48d1-9410-8ce3a052e407_shot"/>
+	</shotsLiveWhenSaved>
+	<source_sdk_settings/>
+	<social_media/>
+	<source_configurations>
+		<source unique_id="7e3e3886-b1f0-467f-bd8b-521e217bfb19" factoryGUID="508D5209-D017-B9F7-CC2C-F85260449272" manuallyAddedSource="1" template_instance_id="c33bae54-aec7-4ae2-bcc5-04c12ff60c75" prettyname="Lower Third White Text 0" localizedDisplayName="Text" groupGUID="508D5209-D017-B9F7-CC2C-F85260449272" localizedGroupingName="Text" hasAudio="0" hasVideo="1" categories="16">
+			<xml_tag web_transparent="1" web_override_css="" widget_settings="{&quot;text_source&quot;:&quot;TEXT&quot;,&quot;linewrap&quot;:1,&quot;fontSelection&quot;:&quot;System Font&quot;,&quot;fontSize&quot;:&quot;In Points&quot;,&quot;fontSizeInPoints&quot;:28,&quot;systemFont&quot;:&quot;Arial&quot;,&quot;text&quot;:&quot;VHlwZSBTb21ldGhpbmcgSGVyZQ==&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;fontWeight&quot;:700,&quot;align_items&quot;:&quot;center&quot;,&quot;justify_content&quot;:&quot;flex-start&quot;,&quot;colors&quot;:{&quot;listingColor&quot;:&quot;rgba(255, 255, 255, 255)&quot;},&quot;_renderer&quot;:{&quot;width_constrained&quot;:1,&quot;height_constrained&quot;:1}}" width_constrained="1" height_constrained="1" isGameshow="0" web_width="1051" web_height="85" constrained_width="1051" constrained_height="85" title="Lower Third White Text 0" web_url="file://C:\Program Files\Telestream\Wirecast\eva_plugins\Sources\WidgetSDK\text/text.html"/>
+		</source>
+		<source unique_id="205d89c8-c99a-421c-904d-4ef9ec471aaf" factoryGUID="508D5209-D017-B9F7-CC2C-F85260449272" manuallyAddedSource="1" template_instance_id="96fa026b-f063-424d-84a4-c88dd60776ab" prettyname="Text Only Text 0" localizedDisplayName="Text" groupGUID="508D5209-D017-B9F7-CC2C-F85260449272" localizedGroupingName="Text" hasAudio="0" hasVideo="1" categories="16">
+			<xml_tag web_transparent="1" web_override_css="" widget_settings="{&quot;id&quot;:35,&quot;fontSelection&quot;:&quot;System Font&quot;,&quot;fontWeight&quot;:&quot;700&quot;,&quot;fontSize&quot;:&quot;In Points&quot;,&quot;fontSizeInPoints&quot;:&quot;54&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;fontVariant&quot;:&quot;normal&quot;,&quot;webFontUrl&quot;:&quot;http://fonts.googleapis.com/css?family=Cinzel:400,700&quot;,&quot;systemFont&quot;:&quot;Arial&quot;,&quot;gradientEnabled&quot;:false,&quot;gradientType&quot;:0,&quot;gradientAngle&quot;:&quot;0&quot;,&quot;solidEnabled&quot;:false,&quot;shadowOffsetAngle&quot;:&quot;0&quot;,&quot;shadowOffsetRadius&quot;:&quot;0&quot;,&quot;shadowBlur&quot;:&quot;0&quot;,&quot;shadowEnabled&quot;:false,&quot;textLayout&quot;:&quot;Vertical&quot;,&quot;justify_content&quot;:&quot;center&quot;,&quot;align_items&quot;:&quot;center&quot;,&quot;scrolling&quot;:{&quot;enabled&quot;:false,&quot;animation&quot;:&quot;Non Stop&quot;,&quot;direction&quot;:&quot;NATURAL&quot;,&quot;speed&quot;:&quot;30&quot;,&quot;slidetime&quot;:&quot;0.6428&quot;,&quot;holdtime&quot;:&quot;3&quot;,&quot;autoreverse&quot;:false},&quot;colors&quot;:{&quot;listingColor&quot;:&quot;rgba(255, 255, 255, 255)&quot;,&quot;backgroundColor&quot;:&quot;rgba(0, 0, 0, 0)&quot;,&quot;shadowColor&quot;:&quot;#000000&quot;,&quot;gradientColor1&quot;:&quot;#ffffff&quot;,&quot;gradientColor2&quot;:&quot;#000000&quot;},&quot;linewrap&quot;:true,&quot;wrap_option_id&quot;:&quot;WORD_WRAP&quot;,&quot;_template_exclude&quot;:[&quot;text_filepath&quot;],&quot;text_source&quot;:&quot;TEXT&quot;,&quot;transition&quot;:false,&quot;transition_id&quot;:&quot;CROSS_FADE&quot;,&quot;transition_sec&quot;:&quot;0.5&quot;,&quot;_renderer&quot;:{&quot;width_constrained&quot;:true,&quot;height_constrained&quot;:true,&quot;client_width&quot;:1280,&quot;client_height&quot;:720,&quot;geometry&quot;:{&quot;width&quot;:616,&quot;height&quot;:164},&quot;constrained_geometry&quot;:{&quot;width&quot;:1280,&quot;height&quot;:720},&quot;constrained_width_geometry&quot;:{&quot;width&quot;:1280,&quot;height&quot;:164}},&quot;text&quot;:&quot;VGhlJTIwTmV4dCUyMFNlc3Npb24lMEFXaWxsJTIwQmVnaW4lMjBTaG9ydGx5&quot;,&quot;_runtime&quot;:{&quot;geometry&quot;:{&quot;width&quot;:250,&quot;height&quot;:898}},&quot;fastfileread&quot;:false}" width_constrained="1" height_constrained="1" isGameshow="0" web_width="1280" web_height="720" constrained_width="1280" constrained_height="720" title="Text Only Text 0" web_url="file://C:\Program Files\Telestream\Wirecast\eva_plugins\Sources\WidgetSDK\text/text.html"/>
+		</source>
+		<source unique_id="7c8e75cc-9700-4559-91b1-3e6d24aa7941" factoryGUID="508D5209-D017-B9F7-CC2C-F85260449272" manuallyAddedSource="1" template_instance_id="" prettyname="Copy of Text Only Text 0" localizedDisplayName="Text" groupGUID="508D5209-D017-B9F7-CC2C-F85260449272" localizedGroupingName="Text" hasAudio="0" hasVideo="1" categories="16">
+			<xml_tag web_transparent="1" web_override_css="" widget_settings="{&quot;id&quot;:35,&quot;fontSelection&quot;:&quot;System Font&quot;,&quot;fontWeight&quot;:&quot;700&quot;,&quot;fontSize&quot;:&quot;In Points&quot;,&quot;fontSizeInPoints&quot;:&quot;54&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;fontVariant&quot;:&quot;normal&quot;,&quot;webFontUrl&quot;:&quot;http://fonts.googleapis.com/css?family=Cinzel:400,700&quot;,&quot;systemFont&quot;:&quot;Arial&quot;,&quot;gradientEnabled&quot;:false,&quot;gradientType&quot;:0,&quot;gradientAngle&quot;:&quot;0&quot;,&quot;solidEnabled&quot;:false,&quot;shadowOffsetAngle&quot;:&quot;0&quot;,&quot;shadowOffsetRadius&quot;:&quot;0&quot;,&quot;shadowBlur&quot;:&quot;0&quot;,&quot;shadowEnabled&quot;:false,&quot;textLayout&quot;:&quot;Vertical&quot;,&quot;justify_content&quot;:&quot;center&quot;,&quot;align_items&quot;:&quot;center&quot;,&quot;scrolling&quot;:{&quot;enabled&quot;:false,&quot;animation&quot;:&quot;Non Stop&quot;,&quot;direction&quot;:&quot;NATURAL&quot;,&quot;speed&quot;:&quot;30&quot;,&quot;slidetime&quot;:&quot;0.6428&quot;,&quot;holdtime&quot;:&quot;3&quot;,&quot;autoreverse&quot;:false},&quot;colors&quot;:{&quot;listingColor&quot;:&quot;rgba(255, 255, 255, 255)&quot;,&quot;backgroundColor&quot;:&quot;rgba(0, 0, 0, 0)&quot;,&quot;shadowColor&quot;:&quot;#000000&quot;,&quot;gradientColor1&quot;:&quot;#ffffff&quot;,&quot;gradientColor2&quot;:&quot;#000000&quot;},&quot;linewrap&quot;:true,&quot;wrap_option_id&quot;:&quot;WORD_WRAP&quot;,&quot;_template_exclude&quot;:[&quot;text_filepath&quot;],&quot;text_source&quot;:&quot;TEXT&quot;,&quot;transition&quot;:false,&quot;transition_id&quot;:&quot;CROSS_FADE&quot;,&quot;transition_sec&quot;:&quot;0.5&quot;,&quot;_renderer&quot;:{&quot;width_constrained&quot;:true,&quot;height_constrained&quot;:true,&quot;client_width&quot;:1280,&quot;client_height&quot;:720,&quot;geometry&quot;:{&quot;width&quot;:473,&quot;height&quot;:164},&quot;constrained_geometry&quot;:{&quot;width&quot;:1280,&quot;height&quot;:720},&quot;constrained_width_geometry&quot;:{&quot;width&quot;:1280,&quot;height&quot;:164}},&quot;text&quot;:&quot;VGhhbmslMjB5b3UlQzIlQTAlMEFGb3IlMjBBdHRlbmRpbmc=&quot;,&quot;_runtime&quot;:{&quot;geometry&quot;:{&quot;width&quot;:250,&quot;height&quot;:898}},&quot;fastfileread&quot;:false}" width_constrained="1" height_constrained="1" isGameshow="0" web_width="1280" web_height="720" constrained_width="1280" constrained_height="720" title="Text Only Text 0" web_url="file://C:\Program Files\Telestream\Wirecast\eva_plugins\Sources\WidgetSDK\text/text.html"/>
+		</source>
+	</source_configurations>
+	<document_thumbnail thumbnail="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"/>
+	<game_overlay_position/>
+	<screename/>
+	<assets>
+		<asset name="Clear Layer" unique_id="2dc6f841-4176-4cc9-b4fe-7a0f528a4775_shot" type="shot" media-type="9" visible="1" created_for_layer="5" blank_shot="1" vam_state="1"/>
+		<asset name="Clear Layer" unique_id="4aef3a7a-c888-48a5-b032-c67085b59a38_shot" type="shot" media-type="9" visible="1" created_for_layer="1" blank_shot="1" vam_state="1"/>
+		<asset name="Clear Layer" unique_id="b5ced77c-8e79-4bd8-b668-b1beda31e753_shot" type="shot" media-type="9" visible="1" created_for_layer="2" blank_shot="1" vam_state="1" sort_on_normal="0"/>
+		<asset name="Clear Layer" unique_id="4c0e6931-78d3-45b0-9588-ba5a713df72b_shot" type="shot" media-type="9" visible="1" created_for_layer="3" blank_shot="1" vam_state="1" sort_on_underlay="0"/>
+		<asset name="Clear Layer" unique_id="6cee881c-3033-4e5a-a5cd-a2cc46c0a993_shot" type="shot" media-type="9" visible="1" created_for_layer="4" blank_shot="1" vam_state="1" sort_on_audio="0"/>
+		<asset name="Lower Third White" unique_id="d31bbc6c-4a4e-430d-8554-a970a1ea37b0_shot" type="shot" media-type="9" vam_state="0" created_for_layer="1" visible="1" video_tracks="1" still_image_tracks="1" audio_tracks="0" alpha_track_count="1" veil_track_count="0"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="7e3e3886-b1f0-467f-bd8b-521e217bfb19" name="Lower Third White Text 0" video_tracks="1" audio_tracks="0" square_pixel_height="85" square_pixel_width="1051" sourceGUID="508D5209-D017-B9F7-CC2C-F85260449272" raster_type="1380401729"/>
+		<asset name="Next Session" unique_id="5389b492-f5f1-477e-b480-b684178577cd_shot" type="shot" media-type="9" still_image_tracks="1" created_for_layer="2" visible="1" vam_state="0" shot_in_playlist="0" video_tracks="1" audio_tracks="1" alpha_track_count="1" sort_on_normal="5" veil_track_count="0" created_for_playlist="" sort_on_playlist="1"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="205d89c8-c99a-421c-904d-4ef9ec471aaf" name="Text Only Text 0" video_tracks="1" audio_tracks="0" square_pixel_height="720" square_pixel_width="1280" raster_type="1380401729" sourceGUID="508D5209-D017-B9F7-CC2C-F85260449272"/>
+		<asset name="Thank you" unique_id="1e7dcc26-c77f-406e-969c-f5de07a60a60" type="shot" media-type="9" veil_track_count="0" created_for_layer="2" visible="1" vam_state="0" still_image_tracks="1" audio_tracks="1" alpha_track_count="1" video_tracks="1" sort_on_normal="4"/>
+		<asset media-type="2" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="7c8e75cc-9700-4559-91b1-3e6d24aa7941" name="Copy of Text Only Text 0" video_tracks="1" audio_tracks="0" sourceGUID="508D5209-D017-B9F7-CC2C-F85260449272" square_pixel_width="1280" raster_type="1380401729" square_pixel_height="720"/>
+		<asset name="background.png" unique_id="34ecb6dc-ce02-48d1-9410-8ce3a052e407_shot" type="shot" media-type="9" sort_on_audio="0" vam_state="0" audio_tracks="0" video_tracks="0" still_image_tracks="1" veil_track_count="0" alpha_track_count="1" visible="1" created_for_layer="4"/>
+		<asset name="blank.png" unique_id="be6d00bd-552f-4ef0-af8a-5a4499f007ca_shot" type="shot" media-type="9" alpha_track_count="1" vam_state="0" audio_tracks="0" video_tracks="0" still_image_tracks="1" veil_track_count="0" created_for_layer="3" visible="1"/>
+		<asset name="left.png" unique_id="23ce2e04-d8e5-4b8b-b0a2-a8958c055ed2_shot" type="shot" media-type="9" alpha_track_count="1" vam_state="0" audio_tracks="0" video_tracks="0" still_image_tracks="1" veil_track_count="0" created_for_layer="3" visible="1"/>
+		<asset name="right.png" unique_id="792de788-2817-4426-b8d3-da8b884c7855_shot" type="shot" media-type="9" alpha_track_count="1" vam_state="0" audio_tracks="0" video_tracks="0" still_image_tracks="1" veil_track_count="0" created_for_layer="3" visible="1"/>
+		<asset name="video.png" unique_id="0766401c-3573-40e1-951c-de03975b0e24_shot" type="shot" media-type="9" alpha_track_count="1" vam_state="0" audio_tracks="0" video_tracks="0" still_image_tracks="1" veil_track_count="0" created_for_layer="3" visible="1"/>
+		<asset name="Digitell_Music_Bed_Classical_New.mp3" unique_id="498354ef-7412-4a48-ae36-e868c8565db2_shot" type="shot" media-type="9" vam_state="0" audio_tracks="1" video_tracks="0" still_image_tracks="0" veil_track_count="0" alpha_track_count="0" created_for_layer="3" visible="1"/>
+		<asset name="Digitell Music Bed_Classical_New.mp3" url="C:\Users\User\Music\Digitell Music Bed_Classical_New.mp3" type="file" audio_tracks="1" media-type="1" unique_id="9a4d55a8-63c4-494e-97b0-3390f8c24ae4_Digitell Music Bed_Classical_New.mp3" timescale="48000" duration="149279616" raster_type="0"/>
+		<asset name="background.png" url="D:\Recorder\images\background.png" type="file" still_image_tracks="1" media-type="1" unique_id="142ca208-8b83-404e-b70b-6bee35d5cfaa_background.png" alpha_track_count="1" raster_type="1919378017" square_pixel_width="1281" square_pixel_height="720"/>
+		<asset name="blank.png" url="D:\Recorder\images\blank.png" type="file" still_image_tracks="1" media-type="1" unique_id="9d8a9d6a-bd53-4612-962e-f0939846ff28_blank.png" alpha_track_count="1" raster_type="1919378017" square_pixel_width="1281" square_pixel_height="720"/>
+		<asset name="left.png" url="D:\Recorder\images\left.png" type="file" still_image_tracks="1" media-type="1" unique_id="89828e7d-5aab-47bd-a77b-1c3788c85c11_left.png" alpha_track_count="1" raster_type="1919378017" square_pixel_width="1281" square_pixel_height="720"/>
+		<asset name="right.png" url="D:\Recorder\images\right.png" type="file" still_image_tracks="1" media-type="1" unique_id="6419fda7-747d-4dec-9fbf-6550a1911c2c_right.png" alpha_track_count="1" raster_type="1919378017" square_pixel_width="1281" square_pixel_height="720"/>
+		<asset name="video.png" url="D:\Recorder\images\video.png" type="file" still_image_tracks="1" media-type="1" unique_id="9aaa37fe-7f9d-4d63-9599-7585cc5ef2fe_video.png" alpha_track_count="1" raster_type="1919378017" square_pixel_width="1281" square_pixel_height="720"/>
+		<asset name="left.png" unique_id="13d2e24a-73ba-4232-b007-d1ded62e5d94_shot" type="shot" media-type="9" sort_on_normal="2" vam_state="0" audio_tracks="1" video_tracks="1" still_image_tracks="1" veil_track_count="0" created_for_layer="2" visible="1" alpha_track_count="1"/>
+		<asset name="right.png" unique_id="cb39a71f-eb2c-420b-a4df-521e6efe5fa6_shot" type="shot" media-type="9" sort_on_normal="3" vam_state="0" still_image_tracks="1" veil_track_count="0" audio_tracks="1" video_tracks="1" created_for_layer="2" visible="1" alpha_track_count="1"/>
+		<asset type="capture" unique_id="HD Video (XI100XUSB-Pro Box)::\\?\usb#vid_04b4&amp;pid_100a#5&amp;79aab49&amp;0&amp;1#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\hdvideo" name="HD Video (XI100XUSB-Pro Box)" guid="\\?\usb#vid_04b4&amp;pid_100a#5&amp;79aab49&amp;0&amp;1#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\hdvideo" url="HD Video (XI100XUSB-Pro Box)" excluded="0" format="video" video_tracks="1" media-type="2" raster_type="1314271538" square_pixel_height="1080" square_pixel_width="1920" isusb="1"/>
+		<asset media-type="3" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="wasapi-capture~Line In (2- XI100XUSB-Pro Box)" name="Line In (2- XI100XUSB-Pro Box)" video_tracks="0" audio_tracks="1" raster_type="0" sourceGUID="82493920-87E5-D76F-F917-3B2DFAC1B83B"/>
+		<asset name="Feed " unique_id="9f5e70b1-0580-4d24-a1a4-69758bf83f65_shot" type="shot" media-type="9" sort_on_normal="1" vam_state="0" veil_track_count="0" audio_tracks="1" video_tracks="1" still_image_tracks="1" created_for_layer="2" visible="1" alpha_track_count="1" created_for_playlist="" sort_on_playlist="2" shot_in_playlist="0"/>
+	</assets>
+	<xml_tag/>
+	<shots>
+		<shot event_type="2" unique_id="2dc6f841-4176-4cc9-b4fe-7a0f528a4775_shot"/>
+		<shot event_type="2" unique_id="4aef3a7a-c888-48a5-b032-c67085b59a38_shot"/>
+		<shot event_type="2" unique_id="b5ced77c-8e79-4bd8-b668-b1beda31e753_shot"/>
+		<shot event_type="2" unique_id="4c0e6931-78d3-45b0-9588-ba5a713df72b_shot"/>
+		<shot event_type="2" unique_id="6cee881c-3033-4e5a-a5cd-a2cc46c0a993_shot"/>
+		<shot event_type="2" template_uuid="user-Digitell_white" virtualsetzoom="0" unique_id="d31bbc6c-4a4e-430d-8554-a970a1ea37b0_shot">
+			<event event_type="4" unique_id="one_quad" zorder="5" template_tag="0" is_title_graphic="1">
+				<event event_type="2" channel_id="1" respect_actual_size="0" scale_from_virtual_set="1,1" pos_from_virtual_set="0,0" ro_respect_aspect_ratio="1" obj_scale="0.5625,1" unique_id="blank.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" action_flags="24" ro_playhead="0" action_time="1421533333" action_duration="0"/>
+				</event>
+			</event>
+			<event event_type="4" unique_id="one_quad" zorder="10" template_tag="0">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_pos="-0.365625,-2.09333" scale_from_virtual_set="1,1" pos_from_virtual_set="0,0" ro_respect_aspect_ratio="1" obj_scale="0.821094,0.118056" unique_id="7e3e3886-b1f0-467f-bd8b-521e217bfb19" ro_user_scale="1.5,1.5">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" template_uuid="user-Digitell_text" virtualsetzoom="0" unique_id="5389b492-f5f1-477e-b480-b684178577cd_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" unique_id="9a4d55a8-63c4-494e-97b0-3390f8c24ae4_Digitell Music Bed_Classical_New.mp3">
+					<event event_type="1" default_action="2" play_flags="6" channel_id="1" ro_media_type="1635083375" ro_playhead="0" action_time="717333333" action_duration="0" action_flags="24" cached_default_action_flags="2" cached_play_flags="6"/>
+				</event>
+			</event>
+			<event event_type="4" unique_id="one_quad" zorder="10" template_tag="0" is_title_graphic="1">
+				<event event_type="2" channel_id="1" respect_actual_size="0" scale_from_virtual_set="1,1" pos_from_virtual_set="0,0" ro_respect_aspect_ratio="1" obj_scale="0.5625,1" unique_id="blank.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" default_action="2" cached_play_flags="6" cached_default_action_flags="2" play_flags="6"/>
+				</event>
+			</event>
+			<event event_type="4" unique_id="one_quad" zorder="15" template_tag="0">
+				<event event_type="2" channel_id="1" respect_actual_size="1" scale_from_virtual_set="1,1" pos_from_virtual_set="0,0" ro_respect_aspect_ratio="1" obj_scale="1.08383,1.08383" ro_user_scale="1.62575,1.62575" unique_id="205d89c8-c99a-421c-904d-4ef9ec471aaf">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" default_action="2" cached_play_flags="6" cached_default_action_flags="2" play_flags="6"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" template_uuid="user-Digitell_text" virtualsetzoom="0" unique_id="1e7dcc26-c77f-406e-969c-f5de07a60a60">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" unique_id="9a4d55a8-63c4-494e-97b0-3390f8c24ae4_Digitell Music Bed_Classical_New.mp3">
+					<event event_type="1" default_action="2" play_flags="6" channel_id="1" ro_media_type="1635083375" action_flags="24" ro_playhead="0" action_time="713800000" action_duration="0"/>
+				</event>
+			</event>
+			<event event_type="4" unique_id="one_quad" zorder="10" template_tag="0" is_title_graphic="1">
+				<event event_type="2" channel_id="1" respect_actual_size="0" scale_from_virtual_set="1,1" pos_from_virtual_set="0,0" ro_respect_aspect_ratio="1" obj_scale="0.5625,1" unique_id="blank.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" action_flags="24" ro_playhead="0" action_time="496000000" action_duration="0"/>
+				</event>
+			</event>
+			<event event_type="4" unique_id="one_quad" zorder="15" template_tag="0">
+				<event event_type="2" channel_id="1" respect_actual_size="1" scale_from_virtual_set="1,1" pos_from_virtual_set="0,0" ro_respect_aspect_ratio="1" obj_scale="1.08383,1.08383" ro_user_scale="1.62575,1.62575" unique_id="7c8e75cc-9700-4559-91b1-3e6d24aa7941">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="34ecb6dc-ce02-48d1-9410-8ce3a052e407_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1,0.99922" ro_user_scale="1.49883,1.49883" unique_id="142ca208-8b83-404e-b70b-6bee35d5cfaa_background.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" action_flags="24" ro_playhead="0" action_time="1421533333" action_duration="0"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="be6d00bd-552f-4ef0-af8a-5a4499f007ca_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1,0.99922" ro_user_scale="1.49883,1.49883" unique_id="9d8a9d6a-bd53-4612-962e-f0939846ff28_blank.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="23ce2e04-d8e5-4b8b-b0a2-a8958c055ed2_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1,0.99922" ro_user_scale="1.49883,1.49883" unique_id="89828e7d-5aab-47bd-a77b-1c3788c85c11_left.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="792de788-2817-4426-b8d3-da8b884c7855_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1,0.99922" ro_user_scale="1.49883,1.49883" unique_id="6419fda7-747d-4dec-9fbf-6550a1911c2c_right.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="0766401c-3573-40e1-951c-de03975b0e24_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1,0.99922" ro_user_scale="1.49883,1.49883" unique_id="9aaa37fe-7f9d-4d63-9599-7585cc5ef2fe_video.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="498354ef-7412-4a48-ae36-e868c8565db2_shot">
+			<event event_type="4" zorder="5">
+				<event event_type="2" channel_id="1" respect_actual_size="1" unique_id="9a4d55a8-63c4-494e-97b0-3390f8c24ae4_Digitell Music Bed_Classical_New.mp3">
+					<event event_type="1" default_action="2" play_flags="6" channel_id="1" ro_media_type="1635083375" ro_playhead="0" action_time="64333333" action_duration="0" action_flags="24"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="13d2e24a-73ba-4232-b007-d1ded62e5d94_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" unique_id="HD Video (XI100XUSB-Pro Box)::\\?\usb#vid_04b4&amp;pid_100a#5&amp;79aab49&amp;0&amp;1#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\hdvideo" obj_pos="1.22683,0.410256">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="10" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_trans="0" unique_id="wasapi-capture~Line In (2- XI100XUSB-Pro Box)">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="15" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1.00745,1.00667" ro_user_scale="1.51,1.51" scale_ratio="1" unique_id="89828e7d-5aab-47bd-a77b-1c3788c85c11_left.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="cb39a71f-eb2c-420b-a4df-521e6efe5fa6_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" unique_id="HD Video (XI100XUSB-Pro Box)::\\?\usb#vid_04b4&amp;pid_100a#5&amp;79aab49&amp;0&amp;1#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\hdvideo" obj_pos="-1.22683,0.369231">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="10" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1.00745,1.00667" scale_ratio="1" ro_user_scale="1.51,1.51" unique_id="6419fda7-747d-4dec-9fbf-6550a1911c2c_right.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="15" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_trans="0" unique_id="wasapi-capture~Line In (2- XI100XUSB-Pro Box)">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="9f5e70b1-0580-4d24-a1a4-69758bf83f65_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" ro_user_scale="1.5,1.5" unique_id="HD Video (XI100XUSB-Pro Box)::\\?\usb#vid_04b4&amp;pid_100a#5&amp;79aab49&amp;0&amp;1#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\hdvideo" obj_scale="1.5,1.5">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" cached_play_flags="6" cached_default_action_flags="2" play_flags="6" default_action="2"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="10" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" obj_trans="0" unique_id="wasapi-capture~Line In (2- XI100XUSB-Pro Box)">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375" cached_play_flags="6" cached_default_action_flags="2" play_flags="6" default_action="2"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="15" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1.00745,1.00667" ro_user_scale="1.51,1.51" scale_ratio="1" unique_id="9aaa37fe-7f9d-4d63-9599-7585cc5ef2fe_video.png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479" cached_play_flags="6" cached_default_action_flags="2" play_flags="6" default_action="2" action_flags="24" ro_playhead="0" action_time="1421533333" action_duration="0"/>
+				</event>
+			</event>
+		</shot>
+	</shots>
+</document>
+</xml>
